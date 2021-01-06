@@ -9,6 +9,6 @@ https://dashboard.ngrok.com
 
 3. copy host address from here
 
-default username : admin
+default username : runneradmin
 
 default password : Area69Lab
