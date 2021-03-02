@@ -8,6 +8,8 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      # Cleanup The Actions Workspace Using Custom Composite Run Actions
+    - uses: rokibhasansagar/slimhub_actions@main
     - name: Download Ngrok
       run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
     - name: Extract Ngrok Archive
